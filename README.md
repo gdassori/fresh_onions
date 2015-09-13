@@ -1,5 +1,9 @@
+# Fresh onions
+
 Grab fresh onions from pastebin.
+
 A .onion links lurker script.
+
 More proxies == More happyness!
 
 
