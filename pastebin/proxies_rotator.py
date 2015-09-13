@@ -44,7 +44,7 @@ class SingleProxy(DoYourOwnProxyRotator):
         self.logger('trying to ban single proxy {}, weird'.format(self.proxy))
 
     def is_valid(self, proxy):
-        return True
+        return proxy == self.proxy
 
 
 class USProxyOrg_Fetcher(DoYourOwnProxyRotator):
