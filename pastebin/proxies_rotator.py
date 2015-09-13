@@ -23,6 +23,9 @@ class DoYourOwnProxyRotator():
         self.logger.error('...')
         raise NotImplementedError()
 
+    def is_valid(self, proxy):
+        raise NotImplementedError()
+
 
 class SingleProxy(DoYourOwnProxyRotator):
     def __init__(self, logger, hostname='127.0.0.1', port='8888'):
