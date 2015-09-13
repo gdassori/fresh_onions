@@ -29,18 +29,24 @@ More proxies == More happyness!
                   /  /    \
 
 
-Dependencies:
+### Dependencies
+
 setuptools 5.5.1
 python 3.4
 virtualenv
 libxml2, libxslt: http://stackoverflow.com/questions/5178416/pip-install-lxml-error
 
-Setup:
+### Setup
+
+```sh
 $ virtualenv -p python3.4 venv
 $ . venv/bin/activate
 $ pip install -r  requirements.txt
+```
 
-Usage:
+### Usage
+
+```sh
 $ python fresh_onion.py &
 $ tail -f onion.log
 
@@ -52,4 +58,5 @@ $ tail -f onion.log
 2015-09-13 14:55:06,593 - onion - ERROR - proxy | unavailable
 2015-09-13 14:55:53,657 - onion - INFO - Onion link found on paste gvfV5kwg | http://3g2upl4pq6kufc4m.onion/
 2015-09-13 14:55:53,657 - onion - INFO - Onion link found on paste gvfV5kwg | http://xmh57jrzrnw6insl.onion/
-....
+...
+```
