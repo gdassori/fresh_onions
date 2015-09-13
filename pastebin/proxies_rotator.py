@@ -57,8 +57,8 @@ class USProxyOrg_Fetcher(DoYourOwnProxyRotator):
 
     def _download_proxies(self):
         self.logger.info('Downloading proxies...')
-        list = BeautifulSoup(requests.get('http://www.us-proxy.org/').text, "lxml")
-        rows = list.find('table').find_all('tr')
+        plist = BeautifulSoup(requests.get('http://www.us-proxy.org/').text, "lxml")
+        rows = plist.find('table').find_all('tr')
         pr = []
         for row in rows:
             proxy = ''
