@@ -46,15 +46,16 @@ More proxies == More happyness!
 ### Setup
 
 ```sh
+$ git clone https://github.com/gdassori/fresh_onions.git
+$ cd fresh_onions
 $ virtualenv -p python3.4 venv
-$ . venv/bin/activate
-$ pip install -r  requirements.txt
+$ venv/bin/pip install -r  requirements.txt
 ```
 
 ### Usage
 
 ```sh
-$ python fresh_onion.py &
+$ venv/bin/python fresh_onion.py &
 $ tail -f onion.log
 
 2015-09-13 14:52:37 - onion - INFO - Starting pastebin monitoring for onion links
