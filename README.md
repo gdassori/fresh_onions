@@ -39,6 +39,9 @@ More proxies == More happyness!
 - python 3.4
 - virtualenv
 - libxml2, libxslt: http://stackoverflow.com/questions/5178416/pip-install-lxml-error
+- lxml 3.4.4
+- requests 2.7.0
+- BeautifulSoup 4.4.0
 
 ### Setup
 
