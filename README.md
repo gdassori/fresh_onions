@@ -55,7 +55,7 @@ $ venv/bin/pip install -r  requirements.txt
 ### Usage
 
 ```sh
-$ venv/bin/python fresh_onion.py &
+$ venv/bin/python fresh_onions.py &
 $ tail -f onion.log
 
 2015-09-13 14:52:37 - onion - INFO - Starting pastebin monitoring for onion links
